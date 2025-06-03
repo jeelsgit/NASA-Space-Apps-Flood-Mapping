@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.6rem;
+    position:relative; 
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_container {
+    display:flex;
+    justify-content:space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right:720px;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+navbar_item {
+    height:80px;
+}
+
+.navbar_links {
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1.5rem;
+    height: 100%;
+}
